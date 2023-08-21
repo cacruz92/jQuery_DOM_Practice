@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Ratings</title>
+  <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<form action="" id="movie-form">
+    Movie Title:<input type="text" id="movie-title" placeholder="Movie Title"> <br>
+    Rating(1-10): <input type="range" id="movie-rating" min="0" max="10"><br>
+    <input type="submit" id="submit">
+</form>
+
+<div>
+    <ul id="movieList"></ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="movierating.js""> </script>
+</body>
+
+</html>
